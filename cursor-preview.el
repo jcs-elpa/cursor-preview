@@ -38,6 +38,12 @@
   :group 'tool
   :link '(url-link :tag "Repository" "https://github.com/jcs-elpa/cursor-preview"))
 
+(defcustom cursor-preview-commands
+  '(goto-line goto-line-relative goto-char move-to-column)
+  "List of commands to do preview."
+  :type 'list
+  :group 'cursor-preview)
+
 (defvar cursor-preview--window-point nil
   "Record the window point.")
 
@@ -64,22 +70,25 @@
       (if (not input)
           (set-window-point (selected-window) cursor-preview--window-point)
         (cl-case cursor-preview--current-command
+          ;; NOTE: Character
           ('goto-char
            (let ((char-pos (string-to-number input)))
              (when (numberp char-pos) (goto-char char-pos))))
+          ;; NOTE: Line
           ('goto-line
            (let ((ln (string-to-number input)))
-             (when (numberp ln) (cursor-preview--goto-line ln)))
-           )
+             (when (numberp ln) (cursor-preview--goto-line ln))))
           ('goto-line-relative
            (let ((ln (string-to-number input)))
-             (when (numberp ln) (cursor-preview--goto-line-relative ln)))
-           )
-          )))))
+             (when (numberp ln) (cursor-preview--goto-line-relative ln))))
+          ;; NOTE: Column
+          ('move-to-column
+           (let ((col (string-to-number input)))
+             (when (numberp col) (move-to-column col)))))))))
 
 (defun cursor-preview--minibuffer-setup ()
   "Minibuffer setup."
-  (when (memq this-command '(goto-char goto-line))
+  (when (memq this-command cursor-preview-commands)
     (with-selected-window minibuffer-scroll-window
       (setq cursor-preview--window-point (window-point)))
     (setq cursor-preview--current-command this-command)

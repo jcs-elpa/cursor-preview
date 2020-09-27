@@ -4,6 +4,8 @@
 # cursor-preview
 > Preivew cursor movement while executing interactive command.
 
+Preview commands that moves cursor around the buffer.
+
 ## Usage
 
 Enable this package by adding the following code snippet to your configuration.

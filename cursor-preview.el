@@ -39,7 +39,9 @@
   :link '(url-link :tag "Repository" "https://github.com/jcs-elpa/cursor-preview"))
 
 (defcustom cursor-preview-commands
-  '(goto-line goto-line-relative goto-char move-to-column)
+  '(goto-char
+    goto-line goto-line-relative
+    move-to-column)
   "List of commands to do preview."
   :type 'list
   :group 'cursor-preview)

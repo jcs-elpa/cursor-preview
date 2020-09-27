@@ -4,7 +4,9 @@
 # cursor-preview
 > Preivew cursor movement while execute command interactively.
 
-Preview commands that moves cursor around the buffer.
+Preview commands that will move the cursor around the buffer. For
+instance, `goto-line`, `goto-char`, `goto-line-relative`, `move-to-column`
+, etc.
 
 ## Usage
 

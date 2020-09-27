@@ -1,10 +1,10 @@
-;;; cursor-preview.el --- Preivew cursor movement while executing interactive command  -*- lexical-binding: t; -*-
+;;; cursor-preview.el --- Preivew cursor movement while execute command interactively  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2020  Shen, Jen-Chieh
 ;; Created date 2020-09-27 13:15:48
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
-;; Description: Preivew cursor movement while executing interactive command.
+;; Description: Preivew cursor movement while execute command interactively.
 ;; Keyword: interactive preview cursor movement display
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.3"))
@@ -27,13 +27,13 @@
 
 ;;; Commentary:
 ;;
-;; Preivew cursor movement while executing interactive command.
+;; Preivew cursor movement while execute command interactively.
 ;;
 
 ;;; Code:
 
 (defgroup cursor-preview nil
-  "Preivew cursor movement while executing interactive command."
+  "Preivew cursor movement while execute command interactively."
   :prefix "cursor-preview-"
   :group 'tool
   :link '(url-link :tag "Repository" "https://github.com/jcs-elpa/cursor-preview"))

@@ -4,6 +4,14 @@
 # cursor-preview
 > Preivew cursor movement while executing interactive command.
 
+## Usage
+
+Enable this package by adding the following code snippet to your configuration.
+
+```el
+(cursor-preview-mode 1)
+```
+
 ## Contribution
 
 If you would like to contribute to this project, you may either

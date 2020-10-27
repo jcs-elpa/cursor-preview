@@ -27,7 +27,15 @@
 
 ;;; Commentary:
 ;;
-;; Preview cursor movement while execute command interactively.
+;; This global minor mode moves the cursor from the main window according
+;; to some possible commands.
+;;
+;; Some possible commands are `goto-line', `goto-char', `goto-line-relative',
+;; `move-to-column', etc.
+;;
+;; You can enable this mode by simply doing the following exection.
+;;
+;;  `(cursor-preview-mode 1)`
 ;;
 
 ;;; Code:

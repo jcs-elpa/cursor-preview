@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.com/jcs-elpa/cursor-preview.svg?branch=master)](https://travis-ci.com/jcs-elpa/cursor-preview)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # cursor-preview
 > Preivew cursor movement while execute command interactively.
+
+[![Build Status](https://travis-ci.com/jcs-elpa/cursor-preview.svg?branch=master)](https://travis-ci.com/jcs-elpa/cursor-preview)
 
 Preview commands that will move the cursor around the buffer. For
 instance, `goto-line`, `goto-char`, `goto-line-relative`,

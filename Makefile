@@ -3,7 +3,7 @@ SHELL := /usr/bin/env bash
 EMACS ?= emacs
 EASK ?= eask
 
-TEST-FILES := $(shell ls test/grammarly-*.el)
+TEST-FILES := $(shell ls test/cursor-preview-*.el)
 
 .PHONY: clean checkdoc lint package install compile test
 

@@ -2,6 +2,9 @@
          "0.1.1"
          "Preview cursor movement while execute command interactively")
 
+(website-url "https://github.com/jcs-elpa/cursor-preview")
+(keywords "interactive" "preview" "cursor" "movement" "display")
+
 (package-file "cursor-preview.el")
 
 (source "melpa")

@@ -4,11 +4,10 @@
 ;; Created date 2020-09-27 13:15:48
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
-;; Description: Preview cursor movement while execute command interactively.
-;; Keyword: interactive preview cursor movement display
+;; URL: https://github.com/jcs-elpa/cursor-preview
 ;; Version: 0.1.1
 ;; Package-Requires: ((emacs "24.3"))
-;; URL: https://github.com/jcs-elpa/cursor-preview
+;; Keywords: interactive preview cursor movement display
 
 ;; This file is NOT part of GNU Emacs.
 

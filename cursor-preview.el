@@ -7,7 +7,7 @@
 ;; URL: https://github.com/jcs-elpa/cursor-preview
 ;; Version: 0.1.1
 ;; Package-Requires: ((emacs "24.3"))
-;; Keywords: interactive preview cursor movement display
+;; Keywords: convenience interactive preview cursor movement display
 
 ;; This file is NOT part of GNU Emacs.
 

@@ -1,6 +1,6 @@
 ;;; cursor-preview.el --- Preview cursor movement while execute command interactively  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2020-2024  Shen, Jen-Chieh
+;; Copyright (C) 2020-2025  Shen, Jen-Chieh
 ;; Created date 2020-09-27 13:15:48
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>

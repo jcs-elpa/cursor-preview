@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "cursor-preview"
          "0.1.1"
          "Preview cursor movement while execute command interactively")
